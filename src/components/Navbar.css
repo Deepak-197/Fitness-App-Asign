@@ -1,0 +1,36 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    
+    color: #333;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid rgb(206, 206, 206) !important;
+    border-radius: 5px;
+    width: min(100%, 900px);
+    height: 25px;
+  }
+  
+  .profile img {
+    max-width: 30px;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+
+  /* Add media queries for responsiveness */
+
