@@ -1,18 +1,11 @@
 import React, { useState } from 'react';
 import ReactPlayer from 'react-player';
 
-export const VideoCard = ({heading, text, videoUrl, tags}) => {
-
-      const [isPlaying, setIsPlaying] = useState(false)
+export const VideoCard = ({heading, text, videoUrl, tags, handlePause, handlePlay, isPlaying}) => {
 
 
-    const handlePlay = () => {
-      setIsPlaying(true)
-    }
 
-    const handlePause = () => {
-      setIsPlaying(false)
-    }
+  
 
   return (
     <div className='video-Card'>
